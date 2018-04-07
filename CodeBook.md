@@ -22,14 +22,14 @@ The content of the zip file is extracted into the current working directory.
 The current working directory is changed to the extracted data set directory "*UCI HAR Dataset*".
 The data table files read into data frames are:
 
-1. features.txt             // table of the feature names of the measurements collected
-2. activity_labels.txt      // table of the various activity names (e.g. WALKING,SITTING,..)
-3. test/X_test.txt          // table of collected data for each feature in features.txt for the **test** run
-4. test/y_test.txt          // table of activity ids, one for each row of the X_test measurements
-5. test/subject_test.txt    // table of subject ids, one for each row of the X_test mesurements
-6. train/X_test.txt         // these 3 tables contains the same information as above but for the **training**
-7. train/y_test.txt         // run
-8. train/subject_test.txt   //
+1. **features.txt**           // table of the feature names of the measurements collected
+2. **activity_labels.txt**      // table of the various activity names (e.g. WALKING,SITTING,..)
+3. **test/X_test.txt**          // table of collected data for each feature in features.txt for the **test** run
+4. **test/y_test.txt**          // table of activity ids, one for each row of the X_test measurements
+5. **test/subject_test.txt**    // table of subject ids, one for each row of the X_test mesurements
+6. **train/X_test.txt**         // these 3 tables contains the same information as above but for the **training** run
+7. **train/y_test.txt**
+8. **train/subject_test.txt**
 
 ## Selecting only Variables of Interest
 
